@@ -1,0 +1,45 @@
+.course .grid-list { padding-block: 20px 44px; }
+  
+.course-card {
+  border-block-end: 4px solid transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.course-card:is(:hover, :focus-within) { border-color: var(--light-coral); }
+
+.course-card .card-banner {
+  height: 160px;
+  background-color: var(--light-gray);
+  overflow: hidden;
+  border-radius: var(--radius-4);
+}
+
+.course-card :is(.wrapper, .rating-wrapper) {
+  display: flex;
+  align-items: center;
+}
+
+.course-card .wrapper {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.course-card .card-price { color: var(--light-coral); }
+
+.course-card .rating-wrapper { gap: 4px; }
+
+.course-card .card-title { margin-block: 8px 16px; }
+
+.course-card .card-meta { justify-content: flex-start; }
+
+.course-card .card-meta .title-sm {
+  display: flex;
+  gap: 8px;
+}
+
+.course .btn { margin-inline: auto; }
+
+
+
